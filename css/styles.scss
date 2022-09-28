@@ -225,10 +225,35 @@
 	.contenido-principal {
 		flex-direction: column;
 	}
-
 	.contenido-principal > * {
 		width: 100%;
 	}
 }
 
+@media(max-width: 768px){
+    .carousel2{
+        .carousel__contenedor {
+            position: relative;
+            .carousel__anterior2 {
+                display: none;
+            }
+            .carousel__siguiente2 {
+                display: none;
+            }
+        }
+    }
+}
 
+@media(max-width: 768px){
+    .carousel{
+        .carousel__contenedor {
+            position: relative;
+            .carousel__anterior {
+                display: none;
+            }
+            .carousel__siguiente {
+                display: none;
+            }
+        }
+    }
+}
